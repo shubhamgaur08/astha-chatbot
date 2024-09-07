@@ -26,7 +26,7 @@ function App() {
       setUserInput('');
 
       try {
-        const response = await fetch('http://localhost:3500/api/Chatbot/chat', {
+        const response = await fetch('https://astha-backend.vercel.app/api/Chatbot/chat', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
